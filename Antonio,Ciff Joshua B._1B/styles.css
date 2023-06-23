@@ -1,0 +1,47 @@
+<style>
+
+body{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    #navbar{
+       
+        position:fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        transition: top 0.5s;
+    
+    }
+    #navbar a{
+        float: right;
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+    
+    }
+    #navbar a:hover{
+        background-color: darkolivegreen;
+        color:pink;
+
+    }
+
+h2{
+    float: center;
+    font-size: 40;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:purple;
+}
+h3{
+    float: center;
+    font-size: 30;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+
+}
+</styles>
